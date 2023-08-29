@@ -1,0 +1,346 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+
+.up {
+
+    padding: 1rem 0;
+    background-color: #383e42;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.up a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.logo a {
+    margin-right: 10px;
+}
+
+nav a {
+    margin-right: 35px;
+}
+
+nav {
+    margin-left: 250px;
+}
+
+.language a:nth-child(1) {
+    color: #6c757d;
+}
+
+.middle {
+    padding: 20px 0;
+    background-color: #434a4f;
+}
+
+.search {
+    position: relative;
+    width: 50%;
+}
+
+.search i {
+    position: absolute;
+    padding: 12px 10px;
+    color: #383e42a6;
+}
+
+.search input{
+    height: 40px;
+    width: 100%;
+    padding-left: 30px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+}
+
+
+.offers{
+    background-color: #495056;
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: #fff;
+    margin-right:8px;
+    border: 1px solid ;
+    transition: 1s;
+}
+
+.offers:hover{
+    background-color: #fff;
+    
+}
+
+.offers:hover a{
+    color: #000;
+    
+}
+
+.offers a{
+    color: #fff;
+}
+
+.icons{
+    display: flex;
+    /* gap: 20px; */
+}
+
+.icons .icon{
+    text-align: center;
+    margin-left: 20px;
+    border-left: 1px solid white;
+    
+    
+}
+
+.icon a{
+    color: #fff;
+    
+}
+
+.icon a i{
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.icon a span{
+    
+    margin-left: 10px;
+}
+
+.bottom{
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+    background-color: #fff;
+}
+
+.models a{
+    color: #000;
+    align-items: center;
+
+    
+}
+
+.models a i{
+    font-size: 25px;
+    margin-right: 10px;
+       
+}
+
+.models{
+    text-align: center;
+}
+
+#Slide{
+    padding: 2rem 0;
+    
+}
+
+#All-main{
+    background-color: #6c757d1a;
+}
+
+.images{
+    width: 70%;
+}
+
+.images img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+.slide-all{
+    position: relative;
+}
+
+.null{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 40%;
+    
+    bottom: -8px;
+    left: 15%;  
+    
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px 50px;
+    
+}
+
+.null .box{
+    width: 5rem;
+    height: 5px;
+    top: 0;
+    left: 0 ;
+    background-color: rgba(0, 0, 0, 0.164);
+    
+    border-radius: 3px;
+    
+}
+
+.null div:nth-child(3){
+    background-color: red;
+}
+
+
+
+.product-all{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin:2rem 0;
+    justify-items: left;
+    
+    
+    
+}
+
+.product{
+    width: 23%;
+    background-color: #fff;
+    padding: 15px 10px;
+    text-align: justify;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+.product .images {
+    width: 65%;
+    position: relative;
+    cursor: pointer;
+
+    
+}
+
+.product .images img{
+    width: 100%;
+    margin-left: 45px;
+    
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.credit-months .months{
+    display: flex;
+    justify-content:space-between;
+    background-color:#ebebeb; ;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-size: 14px;
+    color: #0000002f;
+    
+}
+
+.months .month{
+padding: 0 5px;
+}
+
+.months :nth-child(2){
+    color: #000;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0 3px;
+
+}
+
+
+
+.sale{
+    height: 74px;
+    width: 74px;
+    background-color: red;
+    border-radius: 100px;
+    position: absolute;
+    top:50px;
+    left: 10px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+    color: #fff;
+}
+
+.images i{
+    position: absolute;
+    right: -80px;
+}
+
+.credit-price{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.description .text:hover{
+    color: red;
+}
+
+.text{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button h3{
+    background-color:#8dc63f;;
+    border-radius: 10px;
+    padding: 10px 50px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.button h3:hover{
+    background-color: #5e822f;
+}
+
+.price h2{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
